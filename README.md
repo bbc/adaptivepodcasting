@@ -1,3 +1,3 @@
 # Adaptive podcasting documentation wiki
 
-https://github.com/cubicgarden/adaptivepodcasting.github.io/wiki
+https://github.com/bbc/adaptivepodcasting.github.io/wiki
