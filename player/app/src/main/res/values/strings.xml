@@ -1,0 +1,86 @@
+<resources>
+    <string name="acc_label_text">Acc.</string>
+    <string name="tvmix_label_text">TVMix</string>
+    <string name="NI_slider_desc">NI Slider</string>
+    <string name="app_name">Adaptive Podcasts</string>
+    <string name="intro_popup">This app will use your device\'s stored data and sensors to deliver you a personalised podcast experience</string>
+    <string name="play_text">Play</string>
+    <string name="pause_text">Pause</string>
+    <string name="reset_text">Reset</string>
+    <string name="download_text">Download</string>
+    <string name="title_media_detail">Media Detail</string>
+    <string name="default_rss_feed_url">https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/PerceptivePodcasts.xml</string>
+    <string name="title_activity_legal_warning">Legal Warning</string>
+    <string name="title_activity_terms_of_use">Terms of use</string>
+    <string name="title_activity_further_information">Your own Podcast</string>
+    <string name="terms_web_url">https://www.bbc.co.uk/terms</string>
+    <string name="privacy_web_url">https://www.bbc.co.uk/privacy</string>
+    <string name="content_legal_warning">
+        BBC is trialling a new podcast programme app, which is offered to you by Media AT.\n
+
+        \nBBC will not collect any personal data and will only use anonymised data. The app is based on perceptive media and object based media technology.\n
+
+        \nPlease note that this app is experimental and may not meet the usual BBC technical standards.\n
+
+        \nThe app does require the following Android permissions to operate correctly
+            \n\t\u2022 Contacts
+            \n\t\u2022 Location
+            \n\t\u2022 Storage\n
+
+        \nWe take your privacy very seriously, please take a look at our information privacy policy for more details.
+    </string>
+    <string name="content_terms_of_use">
+        The content in the app is designed for people 16 and over and may not be suitable for people under 16.\n
+
+        \nWe encourage audience feedback. You are able to give feedback during the trial period using the app\'s Taster page with the \"Rate\" feature or by contacting us
+        at taster@bbc.co.uk. The \"Rate\" and \"Share\" features help the BBC create new ideas of interest to our audiences.\n
+
+        \nThe app does not necessarily represent the BBC\'s future plans. Some ideas may only be available during the trial period and the BBC may choose to commission alternative ideas and content.\n
+
+        \nYou can listen to the programmes on Android 8.0 (Oreo) device or higher.\n
+
+        \n© BBC 2022
+    </string>
+    <string name="content_further_information">
+        The app is designed as an experimental platform for a new type of podcast.\n
+
+        \nThe RSS Feed URL preferences enables creators to experiment with creating their own using a combination of object based media and the W3C SMIL (Synchronised Multimedia Integration Language) Specification.\n
+
+        \nIf any changes do not work, you can reset the application by using the perceptive podcast app info option. Then clear the storage to start it as you first installed it.\n
+
+        \nMore details can be found on the MakerBox page and blog post.
+    </string>
+    <string name="play">Play</string>
+    <string name="TextToSpeechInitError">Unable to initialise text to speech engine.</string>
+    <string name="prefDeleteAllKey">deleteAll</string>
+    <string name="prefTermsOfUseKey">termsOfUse</string>
+    <string name="prefPrivacyKey">privacy</string>
+    <string name="prefFurtherInfoKey">furtherInformation</string>
+    <string name="prefTermsOfUseTitle">Terms of use</string>
+    <string name="prefPrivacyPolicyTitle">Privacy policy</string>
+    <string name="prefYourOwnPodcastTitle">Your own Podcast</string>
+    <string name="prefAPPrivacyNoticeKey">apPrivacyNotice</string>
+    <string name="prefAPPrivacyNoticeTitle">AP privacy notice</string>
+    <string name="APPrivacyNoticeActivityLabel">AP Privacy Notice</string>
+    <string name="prefAPTermsOfUseKey">apTerms</string>
+    <string name="prefAPTermsOfUseTitle">AP terms of use</string>
+    <string name="APTermsOfUseActivityLabel">AP Terms Of Use</string>
+    <string name="permissions_issue_dialogue_title">Permissions Issue</string>
+    <string name="permissions_issue_dialogue_message">Necessary permissions not granted. Please allow to unlock player functionality.</string>
+    <string name="permissions_issue_dialogue_quit">Quit</string>
+    <string name="permissions_issue_dialogue_go_to_settings">Settings</string>
+    <string name="playback_notification_channel_name">Playback Notification</string>
+    <string name="playback_notification_channel_desc">Notifications displayed when a podcast is playing.</string>
+    <string name="playback_notification_content">Playing</string>
+    <string name="refresh_rss_label">Refresh RSS</string>
+    <string name="load_local_label">Open ZIP</string>
+    <string name="prefs_label">Preferences</string>
+    <string name="fab_load_content_desc">Load podcast from local zip file.</string>
+    <string name="prefs_fab_content_desc">Open preferences.</string>
+    <string name="fab_refresh_content_desc">Refresh podcast list.</string>
+    <string name="settings_activity_title">Preferences and Information</string>
+    <string name="delete_all_confirm_title">Delete all downloads?</string>
+    <string name="greeting_dialogue_title">Welcome</string>
+    <string name="dialogue_ok">OK</string>
+    <string name="def_xp_secs">30</string>
+</resources>

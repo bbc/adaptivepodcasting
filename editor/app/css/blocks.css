@@ -1,0 +1,169 @@
+
+.block {
+  position: absolute;
+  z-index: 5;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+/*   overflow-x: visible; */
+}
+
+.block:not(.info) {
+
+  width: auto;
+  white-space: nowrap;
+
+  z-index: 4;
+}
+
+
+.blockheader {
+  padding: 10px;
+  cursor: move;
+  background-color: white;
+  color: black;
+  overflow: visible;
+}
+
+.audioheader {
+  background-color: lightgreen;
+}
+
+.ttsheader {
+  background-color: lightblue;
+}
+
+.dynqueryheader {
+  background-color: pink;
+}
+
+.switchheader {
+  background-color: yellow;
+}
+
+.parheader {
+  background-color: mediumpurple;
+}
+
+.pauseheader {
+  background-color: grey;
+}
+
+.vibrateheader {
+  background-color: orange;
+}
+
+input {
+  margin: 10px;
+}
+
+.audio input {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#people input {
+  margin: 5px;
+}
+
+textarea {
+margin:10px;
+}
+
+.shortinput {
+  width: 40px;
+}
+
+#infoBox {
+  width: 40%;
+  /*   height: 40%; */
+  right: 60px;
+  top: 50px;
+  z-index:10;
+}
+#infoContent {
+  height: 200px;
+  overflow: scroll;
+}
+#blockContent {
+  height: 250px;
+  overflow: visible;
+  display: none;
+}
+#testsContent {
+  height: 250px;
+  overflow: scroll;
+  display: none;
+}
+#manifestContent {
+  overflow: scroll;
+  display: none;
+}
+#infoButton {
+  float: right;
+}
+
+
+select {
+  display: inline-block;
+}
+p {
+  display: inline-block;
+}
+
+.linkText {
+  color: blue;
+  text-decoration: underline;
+}
+
+.linkText:hover{
+  cursor: pointer;
+}
+
+.audio .lineButton{
+  float:right;
+}
+
+
+.block-body-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+
+.lineDot {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin:2px;
+  border:solid 1px black;
+
+}
+
+.lineDot:hover {
+  background-color: #ffd633;
+}
+
+.audioMiddle{
+  margin-bottom:5px;
+}
+
+.connectingLineDot{
+  background-color:#ffd633;
+}
+
+.connectedLineDot{
+  background-color:#606060;
+}
+
+.connectedLineDot:hover {
+  background-color: #ffd633;
+}
+
+.playing {
+  background-color: black;
+  color: white;
+}
+

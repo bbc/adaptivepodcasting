@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ap_terms_of_use">
+        <![CDATA[
+            <p><span><strong><u>What are the rules for using BBC Adaptive Podcasting Player?</u>
+            </strong></span></p><p>Adaptive Podcasting Player is a new experimental media player
+            that can play responsive and interactive podcasts created by Adaptive Podcasting Editor,
+            a BBC R&amp;D production tool. To play an interactive podcast that a creator has made
+            with Adaptive Podcasting you need to install Adaptive Podcasting Player. If you were not
+            offered to download Adaptive Podcasting Player by the BBC, please keep in mind that the
+            BBC did not create and is not responsible for the interactive podcasts that are
+            available to play on Adaptive Podcasting Player. The creator that makes available an
+            interactive podcast for you to view through Adaptive Podcasting Player is responsible
+            for the content. If you see any interactive podcast that you believe infringes another
+            party&apos;s copyright or is inappropriate or offensive or illegal then you can report
+            it to the creator.</p>
+            <p>You may access and play interactive podcasts created by Adaptive Podcasting Editor on
+            Adaptive Podcasting Player, as long as your use is lawful and you comply with these
+            terms of use:</p>
+            <p>You can only use Adaptive Podcasting Player to listen to an interactive story created
+            by Adaptive Podcasting Editor.</p>
+            <p>You cannot modify Adaptive Podcasting Player or decompile or reverse engineer it.</p>
+            <p>You can only use the Adaptive Podcasting Player for non-commercial personal use on
+            your personal device.</p>
+            <p>Don&apos;t copy, distribute or license Adaptive Podcasting Player to anyone else.</p>
+            <p>You must immediately stop using Adaptive Podcasting Player where the BBC asks to do
+            so for any reason.</p>
+            <p>If you install Adaptive Podcasting Player you also accept the BBC Terms of Use, which
+            can be found at <a href="https://www.bbc.co.uk/terms">https://www.bbc.co.uk/terms</a>.
+            </p>
+        ]]>
+    </string>
+</resources>

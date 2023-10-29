@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Early test schema for the Adaptive podcasting SMIL code
+  Do not deploy in production environments. 
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="smil">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="head">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="meta">
+                <xs:complexType>
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                  <xs:attribute name="content" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="seq">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="seq">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element name="audio">
+                              <xs:complexType>
+                                <xs:sequence minOccurs="0">
+                                  <xs:element maxOccurs="unbounded" name="dynscript">
+                                    <xs:complexType>
+                                      <xs:sequence>
+                                        <xs:choice maxOccurs="unbounded">
+                                          <xs:element name="text" type="xs:string" />
+                                          <xs:element name="dynquery">
+                                            <xs:complexType>
+                                              <xs:attribute name="merchantId" type="xs:string" use="required" />
+                                              <xs:attribute name="relatedAction" type="xs:string" use="required" />
+                                            </xs:complexType>
+                                          </xs:element>
+                                        </xs:choice>
+                                      </xs:sequence>
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="type" type="xs:string" use="optional" />
+                                <xs:attribute name="volLeft" type="xs:decimal" use="optional" />
+                                <xs:attribute name="volRight" type="xs:decimal" use="optional" />
+                                <xs:attribute name="src" type="xs:string" use="optional" />
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element name="vibrate">
+                              <xs:complexType>
+                                <xs:attribute name="duration" type="xs:decimal" use="required" />
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="par">
+                              <xs:complexType mixed="true">
+                                <xs:sequence>
+                                  <xs:element minOccurs="0" name="switch">
+                                    <xs:complexType>
+                                      <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="seq">
+                                          <xs:complexType>
+                                            <xs:sequence>
+                                              <xs:element name="audio">
+                                                <xs:complexType>
+                                                  <xs:sequence>
+                                                    <xs:element name="dynscript">
+                                                      <xs:complexType>
+                                                        <xs:sequence>
+                                                          <xs:element name="text" type="xs:string" />
+                                                        </xs:sequence>
+                                                      </xs:complexType>
+                                                    </xs:element>
+                                                  </xs:sequence>
+                                                  <xs:attribute name="type" type="xs:string" use="required" />
+                                                </xs:complexType>
+                                              </xs:element>
+                                            </xs:sequence>
+                                            <xs:attribute name="customTest" type="xs:string" use="required" />
+                                          </xs:complexType>
+                                        </xs:element>
+                                      </xs:sequence>
+                                    </xs:complexType>
+                                  </xs:element>
+                                  <xs:element minOccurs="0" name="vibrate">
+                                    <xs:complexType>
+                                      <xs:attribute name="duration" type="xs:decimal" use="required" />
+                                    </xs:complexType>
+                                  </xs:element>
+                                  <xs:element minOccurs="0" maxOccurs="unbounded" name="audio">
+                                    <xs:complexType>
+                                      <xs:attribute name="volLeft" type="xs:decimal" use="optional" />
+                                      <xs:attribute name="volRight" type="xs:decimal" use="optional" />
+                                      <xs:attribute name="ni" type="xs:string" use="optional" />
+                                      <xs:attribute name="src" type="xs:string" use="required" />
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="inTime" type="xs:decimal" use="optional" />
+                                <xs:attribute name="tsi" type="xs:string" use="optional" />
+                                <xs:attribute name="description" type="xs:string" use="optional" />
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element maxOccurs="unbounded" name="seq">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element maxOccurs="unbounded" name="audio">
+                                    <xs:complexType>
+                                      <xs:attribute name="volLeft" type="xs:decimal" use="optional" />
+                                      <xs:attribute name="volRight" type="xs:decimal" use="optional" />
+                                      <xs:attribute name="ni" type="xs:string" use="required" />
+                                      <xs:attribute name="src" type="xs:string" use="required" />
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="inTime" type="xs:decimal" use="optional" />
+                                <xs:attribute name="tsi" type="xs:string" use="optional" />
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element name="switch">
+                              <xs:complexType>
+                                <xs:sequence>
+                                  <xs:element maxOccurs="unbounded" name="seq">
+                                    <xs:complexType>
+                                      <xs:sequence>
+                                        <xs:element name="audio">
+                                          <xs:complexType>
+                                            <xs:sequence>
+                                              <xs:element name="dynscript">
+                                                <xs:complexType>
+                                                  <xs:sequence>
+                                                    <xs:element name="text" type="xs:string" />
+                                                  </xs:sequence>
+                                                </xs:complexType>
+                                              </xs:element>
+                                            </xs:sequence>
+                                            <xs:attribute name="type" type="xs:string" use="required" />
+                                          </xs:complexType>
+                                        </xs:element>
+                                      </xs:sequence>
+                                      <xs:attribute name="customTest" type="xs:string" use="required" />
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

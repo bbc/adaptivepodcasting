@@ -1,43 +1,51 @@
-# [Adaptive podcasting documentation wiki.](https://github.com/bbc/adaptivepodcasting.github.io/wiki)
+# Adaptive / Perceptive Podcasts
 
-[![AP-pexels-cottonbro-header](https://user-images.githubusercontent.com/1649922/188454404-9395c73b-fef2-4f41-b1b9-45e16b8082aa.jpg)](
-https://github.com/bbc/adaptivepodcasting.github.io)
+A BBC Research & Development project exploring the potential of adaptive media.
 
-To learn more about Adaptive podcasting, please check the related [BBC R&D blog post](https://www.bbc.co.uk/rd/blog/2022-09-adaptive-podcasting) and [BBC R&D project research page ](https://www.bbc.co.uk/rd/projects/perceptive-radio).
+<video width="1280" height="720" src="https://private-user-images.githubusercontent.com/1649922/274756409-b87eeb7e-4dcd-43c5-b7ba-247e21dfd7e0.mp4"></video>
+> Video: Created by Vicky Barlow / Voice over: Bronnie McCarthy / Licenced [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
-All content is for educational purposes and correct as of Sept 2022.
+> Music: [Sleepwalking by Airtone](http://ccmixter.org/files/airtone/65416)
 
-Updated versions can be found [here on google docs.](https://docs.google.com/document/d/15RRjzNzmUizUYOFY65Xq1EMd3BGrkFysY7Qur-VPm8Q/edit?usp=sharing) and slowly updated in the wiki.
+Adaptive podcasting is an expandable podcasting platform with unique features and potential for future growth. The key features of the app are the use of different playback instructions depending on device and sensor data, and the capabilities of the audio player itself.
 
+## Introduction
 
----
+This repo is essentially a lightweight implementation of [W3C Synchronized Multimedia Integration Language](https://www.w3.org/TR/SMIL3/) (SMIL) in the context of smart devices, leaning on BBC R&D's [object based media research](https://www.bbc.co.uk/rd/object-based-media) and work on implicit interaction known as [perceptive media](https://www.bbc.co.uk/rd/blog/2012-07-what-is-perceptive-media).
 
-* [Adaptive podcasting editor](https://github.com/bbc/adaptivepodcasting.github.io/wiki/Adaptive-podcasting-editor)
+This repo extends BBC R&D's [perceptive radio projects](https://www.bbc.co.uk/rd/projects/perceptive-radio) into the space of smart devices, keeping the focus on object based audio and adding the ability to create new types of audio experience with minimal experience.
 
-> How to get started and how it works
+There are four parts to the codebase, described below.
 
-* [Adaptive podcasting editor video tutorials](https://github.com/bbc/adaptivepodcasting.github.io/wiki/Adaptive-podcasting-editor-video-tutorials)
+### [Player](player/README.md)
 
-> Videos and tutorials using the adaptive podcasting web editor
+An Android application which runs on Android 10 or later, built using Kotlin.
 
-* [How to creating audio objects](https://github.com/bbc/adaptivepodcasting.github.io/wiki/Creating-Audio-Objects)
+The Player has the ability to schedule media playback and make live editorial decisions based on input from external data sources or sensors.
+It is an early implementation of the perceptive media approach to media, applied to podcasting.
 
-> Brief summary about object audio and how to create them
+### [Editor](editor/README.md)
 
-* [How to share created podcasts](https://github.com/bbc/adaptivepodcasting.github.io/wiki/Sharing-created-podcasts)
+A simple self contained web based editor for adaptive podcast content, using HTML, CSS and JavaScript. The editor can be run without any server-side dependances. It is meant as a quick and easy way to start creating adaptive podcasts with no coding experience.
 
-> Sharing Adaptive podcasting with friends and the world
+### [Specification / Schema](specification/README.md)
 
-* [The community of practice using Adaptive podcasting](https://github.com/bbc/adaptivepodcasting.github.io/wiki/The-community-of-practice-for-Adaptive-podcasting)
+The specification is the start of an XML schema to describe the SMIL code.
 
-> Where to find, share and learn more about Adaptive podcasting with others
+### [Documentation](docs/README.md)
 
-* [Writing adaptive podcasting using code alone](https://github.com/bbc/adaptivepodcasting.github.io/wiki/Writing-the-podcast-using-code)
+Documentation for writing the SMIL code directly, working with the editor, understanding the player and its underlying Android Kotlin code.
 
-> Taking the next step and diving into the code behind adaptive podcasts
+## License
 
-* [Why use SMIL](https://github.com/bbc/adaptivepodcasting.github.io/wiki/SMIL-timing-model)
+All components including the player, editor, and specification are licenced under the Apache 2.0 license. See the LICENSE file in each package directory for the specific licensing terms and copyright information.
 
-> The reason why SMIL is used for Adaptive podcasting
+You may [contact BBC R&D](https://www.bbc.co.uk/rd/contacts) to discuss alternative licensing options. (Please note, the BBC is under no obligation to offer alternative terms.)
 
-* [Credits](https://github.com/bbc/adaptivepodcasting.github.io/wiki/Thank-you-and-credits)
+## Contributing
+
+Please contact the authors by raising a [GitHub issue](issues/new).
+
+## Credits
+
+Adaptive podcasting has a lot of people who deserve [credit](docs/credits.md) for its inception, advancement, building, and opensourcing.

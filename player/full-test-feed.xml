@@ -1,0 +1,304 @@
+<rss>
+    <channel>
+    <image>
+    <link>https://www.bbc.co.uk/rd</link>
+    <title>Adaptive Podcast example demos</title>
+    <url>https://ichef.bbci.co.uk/images/ic/208x208/p05mg1y7.jpg</url>
+    </image>
+    <title>Adaptive Podcast App example demos</title>
+    <description>Adaptive Podcasting App example demo and test feed</description>
+    <language>en</language>
+    <pubDate>Wed, 30 May 2023 10:31:01 +0000</pubDate>
+    <lastBuildDate>Wed, 30 May 2023 22:26:01 +0000</lastBuildDate>
+    <link>https://www.bbc.co.uk/taster</link>
+    <item>
+        <title>The Mindcast introduction</title>
+        <guid isPermaLink="false">MindCastIntro</guid>
+        <summary>Download, tune in and start the journey</summary>
+        <description>Download, tune in and start the journey in binaural and adaptive style</description>
+        <pubDate>Tue, 16 Aug 2022 20:20:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://connectedstudio-perceptivepod.s3.eu-west-1.amazonaws.com/The-mindcast-introduction.zip" length="4407508" type="application/zip"/>
+    </item>
+    <item>
+        <title>The Starter Demo</title>
+        <guid isPermaLink="false">starterDemo</guid>
+        <summary>Short demo of the possibilities of Adaptive Podcasting</summary>
+        <description>Short demo of the different possibilities of Adaptive Podcasting</description>
+        <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://connectedstudio-perceptivepod.s3.eu-west-1.amazonaws.com/StarterDemo.zip" length="7286839" type="application/zip"/>
+    </item>
+    <item>
+        <title>Adaptive Summer Mindcast</title>
+        <guid isPermaLink="false">summerMindCastAP</guid>
+        <summary>Download, tune in and relax your mind</summary>
+        <description>Download, tune in and relax your mind in binaural and adaptive style</description>
+        <pubDate>Thu, 4 Aug 2022 18:20:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://connectedstudio-perceptivepod.s3.eu-west-1.amazonaws.com/Summer-mindcast.zip" length="80575785" type="application/zip"/>
+    </item>
+    <item>
+        <title>Adaptive Winter Mindcast</title>
+        <guid isPermaLink="false">winterMindCastAP</guid>
+        <summary>Download, tune in and relax your mind</summary>
+        <description>Download, tune in and relax your mind in binaural and adaptive style</description>
+        <pubDate>Thu, 4 Aug 2022 18:20:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://connectedstudio-perceptivepod.s3.eu-west-1.amazonaws.com/Winter-mindcast.zip" length="81721039" type="application/zip"/>
+    </item>
+    <item>
+        <title>AP technical interview with Rebecca Saw</title>
+        <guid isPermaLink="false">AP-tech-interview</guid>
+        <summary>In depth technical interview with Rebecca Saw</summary>
+        <description>In depth technical interview with Rebecca Saw on developing Adaptive Podcasting</description>
+        <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://connectedstudio-perceptivepod.s3.eu-west-1.amazonaws.com/AP-tech-interview.zip" length="51309106" type="application/zip"/>
+    </item>
+     <item>
+      <title>The Binaural Turning Forest</title>
+      <guid isPermaLink="false">binauralTurning</guid>
+      <summary>Short binaural cut of the Turning Forest</summary>
+      <description>Short binaural cut of the BBC's Turning Forest</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3.eu-west-1.amazonaws.com/binauralTurning.zip" length="1839349" type="application/zip"/>
+    </item>
+    <item>
+      <title>Tomorrow's World Electric Sheep (AP remix)</title>
+      <guid isPermaLink="false">electricSheep</guid>
+      <summary>Meet Mary. She's sentient and she's conscious. So is your phone...</summary>
+      <description>Meet Mary. She's sentient and she's conscious. So is your phone...</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D and Tomorrow's World</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3-eu-west-1.amazonaws.com/tomorrowsWorldEp4.zip" length="58892164" type="application/zip"/>
+    </item>
+    <item>
+      <title>Tomorrow's World Electric Sheep (Original version)</title>
+      <guid isPermaLink="false">electricSheepTX</guid>
+      <summary>Meet Mary. She's sentient and she's conscious, just like us?</summary>
+      <description>Demostrating the ability to playback audio files directly</description>
+      <pubDate>Tue, 28 Nov 2017 12:00:00 +0000</pubDate>
+      <author>BBC Tomorrow's World</author>
+      <enclosure url="https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p05mfn6t.mp3" length="58933753" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Abbie's Black Hole Insanity</title>
+      <guid isPermaLink="false">abbieBlackHole</guid>
+      <summary>From Salford University's Audio student Abbie Thomson</summary>
+      <description>Black Hole Insanity by Salford University's Abbie Thomson</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>Abbie Thomson</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3-eu-west-1.amazonaws.com/abbieBlackHole.zip" length="4831578" type="application/zip"/>
+    </item>
+    <item>
+      <title>Roxann's A Lack of Her poem</title>
+      <guid isPermaLink="false">roxannPoem</guid>
+      <summary>From Salford University's Audio student Roxann Asquith</summary>
+      <description>Poem by Salford University's Roxann Asquith</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>Roxann Asquith</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3-eu-west-1.amazonaws.com/roxannPoem.zip" length="4710522" type="application/zip"/>
+    </item>
+    <item>
+      <title>Is Santa on the way?</title>
+      <guid isPermaLink="false">SantaOnTheWay</guid>
+      <summary>Showcasing how using date variables could adapt podcast content</summary>
+      <description>Showcasing how using date variables could adapt podcast content </description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3.eu-west-1.amazonaws.com/Is-Santa-on-the-way.zip" length="1468247" type="application/zip"/>
+    </item>
+    <item>
+      <title>In B major (Layered Audio in B-major)</title>
+      <guid isPermaLink="false">layeredAudioBmajor</guid>
+      <summary>Demonstrates audio layering limits in a smoother way</summary>
+      <description>Demonstrates audio layering limits</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3-eu-west-1.amazonaws.com/layeredAudioBmajor.zip" length="16783185" type="application/zip"/>
+    </item>
+    <item>
+        <title>QAAP01</title>
+        <guid isPermaLink="false">QAAP01</guid>
+        <summary>Quirky and Autistic Parenting Ep. 01</summary>
+        <description>Quirky and Autistic Parenting Ep. 01</description>
+        <pubDate>Wed, 30 May 2023 10:30:03 +0000</pubDate>
+        <author>SHK,HB,KB</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/QAAP01a.zip" type="application/zip"/>
+    </item>
+    <item>
+        <title>QAAP02</title>
+        <guid isPermaLink="false">QAAP02</guid>
+        <summary>Quirky and Autistic Parenting Ep. 02</summary>
+        <description>Quirky and Autistic Parenting Ep. 02</description>
+        <pubDate>Wed, 30 May 2023 10:30:01 +0000</pubDate>
+        <author>SHK,HB,KB</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/QAAP02g.zip" type="application/zip"/>
+    </item>
+    <item>
+        <title>QAAP03</title>
+        <guid isPermaLink="false">QAAP03</guid>
+        <summary>Quirky and Autistic Parenting Ep. 03</summary>
+        <description>Quirky and Autistic Parenting Ep. 03</description>
+        <pubDate>Wed, 30 May 2023 10:30:01 +0000</pubDate>
+        <author>SHK,HB,KB</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/QAAP03a.zip" type="application/zip"/>
+    </item>
+    <item>
+        <title>NITForest</title>
+        <guid isPermaLink="false">NITForest</guid>
+        <summary>NITForest</summary>
+        <description>NI Turning Forest</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>UoY Audiolab</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/NITForest.zip" type="application/zip"/>
+    </item>
+    <item>
+      <title>EssHiMedLo</title>
+      <guid isPermaLink="false">EssHiMedLo</guid>
+      <summary>EssHiMedLo</summary>
+      <description>EssHiMedLo</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+      <author>UoY Audiolab</author>
+      <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/EssHiMedLo.zip" type="application/zip"/>
+    </item>
+    <item>
+        <title>KB Test1</title>
+        <guid isPermaLink="false">kbtest1</guid>
+        <summary>KB Test1</summary>
+        <description>KB Test1</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>UoY Audiolab</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/kbtest1.zip" type="application/zip"/>
+    </item>
+    <item>
+    <title>Background music based on time</title>
+        <guid isPermaLink="false">moodDemo</guid>
+        <summary>Changing the music based on time</summary>
+        <description>Changing the music based on time</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/moodDemo.zip" length="5114246" type="application/zip"/>
+    </item>
+    <item>
+        <title>Background music changes</title>
+        <guid isPermaLink="false">MoodDemoNoTime</guid>
+        <summary>Background music changes</summary>
+        <description>Changing the music</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/MoodDemoNoTime.zip" length="5114063" type="application/zip"/>
+    </item>
+    <item>
+        <title>Layered audio example</title>
+        <guid isPermaLink="false">layeredAudio</guid>
+        <summary>Layered audio example</summary>
+        <description>Layered audio example</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/layeredAudio.zip" length="230579" type="application/zip"/>
+    </item>
+    <item>
+        <title>Speech Synthesis Demo</title>
+        <guid isPermaLink="false">SSMLDemo</guid>
+        <summary>Speech Synthesis Markup Language demo</summary>
+        <description>Speech Synthesis Markup Language demo</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/SSMLDemo.zip" length="67156" type="application/zip"/>
+    </item>
+    <item>
+        <title>Speed Demo</title>
+        <guid isPermaLink="false">speedDemo</guid>
+        <summary>Audio speed test</summary>
+        <description>Changes the audio speed</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/SpeedDemo.zip" length="222209" type="application/zip"/>
+    </item>
+    <item>
+        <title>Loop Demo (beta)</title>
+        <guid isPermaLink="false">loopDemo</guid>
+        <summary>Loop and speed test</summary>
+        <description>Loops the audio and adjusts the speed of the loop</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/LoopDemo.zip" length="2260883" type="application/zip"/>
+    </item>
+    <item>
+        <title>Haptic Demo</title>
+        <guid isPermaLink="false">hapticDemo</guid>
+        <summary>Haptic or vibrate feedback</summary>
+        <description>Simply vibrates the phone on-demand</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/HapticDemo.zip" length="2222119" type="application/zip"/>
+    </item>
+    <item>
+        <title>Time Demo</title>
+        <guid isPermaLink="false">timeDemo</guid>
+        <summary>Simply reads the current time out</summary>
+        <description>Simply reads the current time out</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/timeDemo.zip" length="230579" type="application/zip"/>
+    </item>
+    <item>
+        <title>Proximity Demo</title>
+        <guid isPermaLink="false">proximityDemo</guid>
+        <summary>Proximity test, used to understand if the phone is in a pocket or elsewhere</summary>
+        <description>Proximity sensor demo, used to understand if the phone is in a pocket or elsewhere</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/proximityDemo.zip" length="579730" type="application/zip"/>
+    </item>
+    <item>
+        <title>Light Demo test</title>
+        <guid isPermaLink="false">lightDemo</guid>
+        <summary>Light sensor demo, try it in the dark and with a light on</summary>
+        <description>Light sensor demo, try it in the dark and with a light on</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/lightDemo.zip" length="706241" type="application/zip"/>
+    </item>
+    <item>
+        <title>Basic Timing Demo</title>
+        <guid isPermaLink="false">timingDemo</guid>
+        <summary>Demonstrates the timing attributes of SMIL</summary>
+        <description>Demonstrates the timing attributes of SMIL</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/playbackTimingDemo.zip" length="9187854" type="application/zip"/>
+    </item>
+    <item>
+        <title>Adavnced Timing Demo</title>
+        <guid isPermaLink="false">timingDemo2</guid>
+        <summary>Demonstrates the timing advanced attributes of SMIL</summary>
+        <description>Demonstrates the timing advanced attributes of SMIL</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC RnD</author>
+    <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/TimingTest.zip" length="16485331" type="application/zip"/>
+    </item>
+    <item>
+        <title>User Info Demo</title>
+        <guid isPermaLink="false">userInfoDemo</guid>
+        <summary>Demonstrates Dynamic Script Using Onboard Data</summary>
+        <description>Demonstrates Dynamic Script Using Onboard Data</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/userInfoDemo.zip" length="622597" type="application/zip"/>
+    </item>
+    <item>
+        <title>User Activity Demo</title>
+        <guid isPermaLink="false">userActivityDemo</guid>
+        <summary>Demonstrates User Activity Data Merchant</summary>
+        <description>Demonstrates User Activity Data Merchant</description>
+        <pubDate>Wed, 30 Mar 2022 10:30:00 +0000</pubDate>
+        <author>BBC</author>
+        <enclosure url="https://audiolab.york.ac.uk/listening-tests/APA/0001/both/userActivityDemo.zip" length="625176" type="application/zip"/>
+    </item>
+    </channel>
+    </rss>
+    

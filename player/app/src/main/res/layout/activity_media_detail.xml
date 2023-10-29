@@ -1,0 +1,199 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="uk.co.bbc.perceptivepodcasts.podcast.MediaDetailActivity"
+    tools:ignore="MergeRootFrame">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/media_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutXP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutNI"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:paddingRight="85dp"
+            app:layout_constraintBottom_toTopOf="@id/editTextNumberXP">
+
+            <TextView
+                android:id="@+id/seekLabel"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:background="#000000"
+                android:contentDescription="@string/tvmix_label_text"
+                android:paddingStart="4sp"
+                android:paddingEnd="4sp"
+                android:text="@string/tvmix_label_text"
+                android:textAlignment="center"
+                android:textColor="#90CAF9"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <SeekBar
+                android:id="@+id/seekBarNI"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:background="#000000"
+                android:contentDescription="@string/NI_slider_desc"
+                android:minWidth="150dp"
+                app:layout_constraintEnd_toStartOf="@id/seekLabel2"
+                app:layout_constraintStart_toEndOf="@+id/seekLabel"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_min="150dp"
+                />
+
+            <TextView
+                android:id="@+id/seekLabel2"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:background="#000000"
+                android:contentDescription="@string/acc_label_text"
+                android:paddingStart="4sp"
+                android:paddingEnd="4sp"
+                android:text="@string/acc_label_text"
+                android:textAlignment="center"
+                android:textColor="#90CAF9"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/buttonXP1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/v_redo"
+            android:textColor="#609AB9"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPPP"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="0%"
+            android:ems="10"
+            android:background="@drawable/xpbuttonbg"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonXP1" />
+
+        <Button
+            android:id="@+id/buttonXP3"
+            android:layout_width="88dp"
+            android:layout_height="48dp"
+            android:background="@drawable/v_skip_back"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/editTextNumberXP" />
+
+        <Button
+            android:id="@+id/buttonXP2"
+            android:layout_width="88dp"
+            android:layout_height="48dp"
+            android:background="@drawable/v_skip_fwd"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumberXP"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:background="@drawable/xpbuttonbg"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/def_xp_secs"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/buttonXP2"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/fabFrame"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toTopOf="@id/buttonXP2"
+            app:layout_constraintRight_toRightOf="@id/buttonXP2"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="2dp"
+            >
+            <ProgressBar
+                android:id="@+id/prepareProgressBar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:enabled="false"
+                app:backgroundTint="@color/colorGreyedOut"
+                app:srcCompat="@android:drawable/ic_media_play"
+                app:elevation="0dp"
+                android:contentDescription="@string/play"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

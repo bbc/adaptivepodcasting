@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TSIAcceptedValues">
+        <item>essential</item>
+        <item>high</item>
+        <item>medium</item>
+        <item>low</item>
+    </string-array>
+    <string-array name="TSIGUIDescriptions">
+        <item>Full</item>
+        <item>Short</item>
+        <item>Highlights</item>
+    </string-array>
+    <string-array name="NIAcceptedValues">
+        <item>essential</item>
+        <item>high</item>
+        <item>medium</item>
+        <item>low</item>
+    </string-array>
+</resources>

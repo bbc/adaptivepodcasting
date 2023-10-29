@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/media_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context="uk.co.bbc.perceptivepodcasts.MediaDetailFragment" />
+
+    <ImageView
+        android:id="@+id/mdImg"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_below="@id/media_detail"
+        android:paddingBottom="10dp"
+        android:src="@drawable/common_google_signin_btn_icon_dark_normal_background" />
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mdImg"
+        android:layout_marginBottom="150dp"
+        />
+
+</RelativeLayout>
+
+
+

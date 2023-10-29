@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+  <channel>
+    <image>
+      <link>https://www.bbc.co.uk/rd</link>
+      <title>Adaptive Podcast example demos</title>
+      <url>https://ichef.bbci.co.uk/images/ic/208x208/p05mg1y7.jpg</url>
+    </image>
+    <title>Adaptive podcast player example demos</title>
+    <description>Adaptive podcasting example demo feed</description>
+    <language>en</language>
+    <pubDate>Thu, 6 Jan 2022 12:05:00 +0000</pubDate>
+    <lastBuildDate>Thu, 6 Jan 2022 12:05:00 +0000</lastBuildDate>
+    <link>https://www.bbc.co.uk/makerbox</link>
+    <item>
+      <title>In B major (Layered Audio in B-major)</title>
+      <guid isPermaLink="false">layeredAudioBmajor</guid>
+      <summary>Demonstrates audio layering limits in a smoother way</summary>
+      <description>Demonstrates audio layering limits</description>
+      <pubDate>Mon, 3 Jan 2020 16:00:00 +0000</pubDate>
+      <author>BBC</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3-eu-west-1.amazonaws.com/layeredAudioBmajor.zip" length="16783237" type="application/zip"/>
+    </item>
+    <item>
+      <title>In B flat (Layered Audio by the number)</title>
+      <guid isPermaLink="false">layeredAudioNumbered</guid>
+      <summary>Demonstrates audio layering limits</summary>
+      <description>Demonstrates audio layering limits</description>
+      <pubDate>Fri, 31 Jan 2020 12:00:00 +0000</pubDate>
+      <author>BBC</author>
+      <enclosure url="https://connectedstudio-perceptivepod.s3-eu-west-1.amazonaws.com/layeredAudioNumbered.zip" length="16785310" type="application/zip"/>
+    </item>
+    <item>
+        <title>Background music based on time</title>
+        <guid isPermaLink="false">moodDemo</guid>
+        <summary>Changing the music based on time</summary>
+        <description>Changing the music based on time</description>
+        <pubDate>Fri, 28 Jun 2019 09:45:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/moodDemo.zip" length="5114246" type="application/zip"/>
+    </item>
+    <item>
+        <title>Background music changes</title>
+        <guid isPermaLink="false">MoodDemoNoTime</guid>
+        <summary>Background music changes</summary>
+        <description>Changing the music</description>
+        <pubDate>Mon, 8 Jun 2019 09:45:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/MoodDemoNoTime.zip" length="5114063" type="application/zip"/>
+    </item>
+    <item>
+        <title>Layered audio example</title>
+        <guid isPermaLink="false">layeredAudio</guid>
+        <summary>Layered audio example</summary>
+        <description>Layered audio example</description>
+        <pubDate>Mon, 5 Nov 2018 12:10:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/layeredAudio.zip" length="230579" type="application/zip"/>
+    </item>
+    <item>
+      <title>Speech Synthesis Demo</title>
+      <guid isPermaLink="false">SSMLDemo</guid>
+      <summary>Speech Synthesis Markup Language demo</summary>
+      <description>Speech Synthesis Markup Language demo</description>
+      <pubDate>Tue, 01 Jun 2021 10:10:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/SSMLDemo.zip" length="67156" type="application/zip"/>
+    </item>
+    <item>
+      <title>Speed Demo</title>
+      <guid isPermaLink="false">speedDemo</guid>
+      <summary>Audio speed test</summary>
+      <description>Changes the audio speed</description>
+      <pubDate>Tue, 01 Jun 2021 10:10:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/SpeedDemo.zip" length="222209" type="application/zip"/>
+    </item>
+    <item>
+      <title>Loop Demo (beta)</title>
+      <guid isPermaLink="false">loopDemo</guid>
+      <summary>Loop and speed test</summary>
+      <description>Loops the audio and adjusts the speed of the loop</description>
+      <pubDate>Mon, 05 Jan 2022 10:10:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/LoopDemo.zip" length="2260883" type="application/zip"/>
+    </item>      
+    <item>
+      <title>Haptic Demo</title>
+      <guid isPermaLink="false">hapticDemo</guid>
+      <summary>Haptic or vibrate feedback</summary>
+      <description>Simply vibrates the phone on-demand</description>
+      <pubDate>Tue, 01 Jun 2021 10:10:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/HapticDemo.zip" length="2222119" type="application/zip"/>
+    </item>
+    <item>
+      <title>Time Demo</title>
+      <guid isPermaLink="false">timeDemo</guid>
+      <summary>Simply reads the current time out</summary>
+      <description>Simply reads the current time out</description>
+      <pubDate>Wed, 24 Oct 2018 22:10:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/timeDemo.zip" length="230579" type="application/zip"/>
+    </item>
+    <item>
+      <title>Proximity Demo</title>
+      <guid isPermaLink="false">proximityDemo</guid>
+      <summary>Proximity test, used to understand if the phone is in a pocket or elsewhere</summary>
+      <description>Proximity sensor demo, used to understand if the phone is in a pocket or elsewhere</description>
+      <pubDate>Wed, 24 Oct 2018 22:50:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/proximityDemo.zip" length="579730" type="application/zip"/>
+    </item>
+    <item>
+      <title>Light Demo test</title>
+      <guid isPermaLink="false">lightDemo</guid>
+      <summary>Light sensor demo, try it in the dark and with a light on</summary>
+      <description>Light sensor demo, try it in the dark and with a light on</description>
+      <pubDate>Wed, 24 Oct 2018 16:50:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/lightDemo.zip" length="706241" type="application/zip"/>
+    </item>
+    <!--
+    <item>
+      <title>Anthem Demo</title>
+      <guid isPermaLink="false">anthemDemo</guid>
+      <summary>Plays the national anthem of your current country (UK, Canada and USA only)</summary>
+      <description>Plays the national anthem of your current country</description>
+      <pubDate>Thu, 21 Sep 2017 12:00:00 +0000</pubDate>
+      <author>BBC</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/anthemDemo.zip" length="9191450" type="application/zip"/>
+    </item>
+    -->
+    <item>
+      <title>Basic Timing Demo</title>
+      <guid isPermaLink="false">timingDemo</guid>
+      <summary>Demonstrates the timing attributes of SMIL</summary>
+      <description>Demonstrates the timing attributes of SMIL</description>
+      <pubDate>Thu, 21 Sep 2017 12:00:00 +0000</pubDate>
+      <author>BBC</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/playbackTimingDemo.zip" length="9187854" type="application/zip"/>
+    </item>
+    <item>
+      <title>Adavnced Timing Demo</title>
+      <guid isPermaLink="false">timingDemo2</guid>
+      <summary>Demonstrates the timing advanced attributes of SMIL</summary>
+      <description>Demonstrates the timing advanced attributes of SMIL</description>
+      <pubDate>Tue, 01 Jun 2021 10:10:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/TimingTest.zip" length="16485331" type="application/zip"/>
+    </item>  
+    <item>
+      <title>User Info Demo</title>
+      <guid isPermaLink="false">userInfoDemo</guid>
+      <summary>Demonstrates Dynamic Script Using Onboard Data</summary>
+      <description>Demonstrates Dynamic Script Using Onboard Data</description>
+      <pubDate>Thu, 21 Sep 2017 12:00:00 +0000</pubDate>
+      <author>BBC</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/userInfoDemo.zip" length="622597" type="application/zip"/>
+    </item>
+    <item>
+      <title>User Activity Demo</title>
+      <guid isPermaLink="false">userActivityDemo</guid>
+      <summary>Demonstrates User Activity Data Merchant</summary>
+      <description>Demonstrates User Activity Data Merchant</description>
+      <pubDate>Thu, 21 Sep 2017 12:00:00 +0000</pubDate>
+      <author>BBC</author>
+      <enclosure url="https://s3-eu-west-1.amazonaws.com/connectedstudio-perceptivepod/demos/userActivityDemo.zip" length="625176" type="application/zip"/>
+    </item>
+  </channel>
+</rss>

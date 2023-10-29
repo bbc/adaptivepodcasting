@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Adaptive Podcasting Editor</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/blocks.css" />
+    <link rel="stylesheet" href="/css/tooltips.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <script src="../zip/library/jszip.js"></script>
+    <script src="../zip/library/FileSaver.js"></script>
+    <script src="../zip/library/hermite.js"></script>
+    <script src="../zip/library/JSZipUtils.js"></script>
+    <script src="../interface/creating.js" type="module" defer></script>
+
+    <!--     https://atomiks.github.io/tippyjs/v6/getting-started/ -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+  </head>
+  <body class="noselect">
+    <div class="column">
+      <h2 class="button" id="previewButton">
+        <span
+          id="playIcon"
+          class="material-icons"
+          style="font-size: 25px; color: black"
+          >play_arrow</span
+        >
+        <span id="previewText">Preview File</span>
+
+        <div class="previewButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button hidden" id="skipButton">
+        <span
+          id="skipIcon"
+          class="material-icons"
+          style="font-size: 25px; color: black"
+          >skip_next</span
+        >
+        <span id="skipText">Skip element</span>
+
+        <div class="skipButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="createFileButton">
+        <span class="material-icons"> file_download </span>
+
+        <span id="createFileText">Create File</span>
+        <div class="createFileButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+      <br />
+      <h2 class="button" id="audioButton" onclickset="addAudio()">
+        ➕ Audio
+        <div class="audioButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="ttsButton">
+        ➕ Text To Speech
+        <div class="ttsButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="dynqueryButton">
+        ➕ Sensor Value
+        <div class="dynqueryButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="switchButton">
+        ➕ Switch
+        <div class="switchButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="ifButton">
+        ➕ Test
+        <div class="testButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="parButton">
+        ➕ Parallel
+        <div class="parButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="pauseButton">
+        ➕ Pause
+        <div class="pauseButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+
+      <h2 class="button" id="vibrateButton">
+        ➕ Vibrate
+        <div class="vibrateButtonTip tooltip">
+          <span
+            class="material-icons tooltip"
+            style="font-size: 18px; color: grey"
+            >help</span
+          >
+        </div>
+      </h2>
+    </div>
+
+    <div id="addSpace">
+      <div class="tooltipLeft">
+        <span
+          id="add-space-icon"
+          class="material-icons"
+          style="font-size: 35px; color: black"
+          >keyboard_double_arrow_right</span
+        >
+      </div>
+    </div>
+
+    <div id="addSpaceVertical">
+      <div class="tooltipLeft">
+        <span
+          id="add-space-icon-down"
+          class="material-icons"
+          style="font-size: 35px; color: black"
+          >keyboard_double_arrow_down</span
+        >
+      </div>
+    </div>
+
+    <div id="timeline">
+      <div id="spawn">
+        <div id="exampleAudio" class="block audio hidden">
+          <div class="audioheader blockheader">
+            <span class="blockTitle"> Audio </span>
+
+            <div class="audioTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+            <button class="closeButtons">x</button>
+          </div>
+
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+
+            <div class="audioMiddle">
+              <input type="file" accept="audio/*" />
+              <div class="uploadedAudio hidden">
+                <p class="uploadedAudioName">Audio Name</p>
+                <button class="deleteAudioButton">Delete Audio</button>
+              </div>
+              <br />
+
+              <span class="linkText changeTimes smallText"
+                >Change Start time/Duration</span
+              >
+              <div class="changeTimeTip tooltip">
+                <span
+                  class="material-icons tooltip"
+                  style="font-size: 18px; color: grey"
+                  >help</span
+                >
+              </div>
+              <br />
+              <div class="expandedAudio smallText hidden">
+                Start at:
+                <input class="timeInput start shortinput" placeholder="1:25" />
+                Duration:
+                <input class="timeInput dur shortinput" placeholder="0:30" />
+              </div>
+            </div>
+
+            <div class="lineDot"></div>
+            <audio />
+          </div>
+        </div>
+
+        <div id="exampleTTS" class="block tts hidden">
+          <div class="ttsheader blockheader">
+            Text To Speech
+            <div class="ttsTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+            <button class="closeButtons">x</button>
+          </div>
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <textarea
+              type="text"
+              placeholder="eg My Text"
+              class="textarea"
+            ></textarea>
+
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <div id="exampleDynquery" class="block dynquery hidden">
+          <div class="dynqueryheader blockheader">
+            Sensor Value
+            <div class="dynqueryTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+            <button class="closeButtons">x</button>
+          </div>
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <select></select>
+            <select width="100%" class="hidden"></select>
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <div id="exampleSwitchEnd" class="block endS hidden">
+          <div class="switchheader blockheader">
+            Switch End
+            <div class="switchEndTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+          </div>
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <div id="exampleSwitch" class="block switch hidden">
+          <div class="switchheader blockheader">
+            Switch Start
+            <div class="switchTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+            <button class="closeButtons">x</button>
+          </div>
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <button>Test Switch</button>
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <div id="exampleParEnd" class="block endP hidden">
+          <div class="parheader blockheader">
+            Parallel End
+            <div class="parEndTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: black"
+                >help</span
+              >
+            </div>
+          </div>
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <div id="examplePar" class="block par hidden">
+          <div class="parheader blockheader">
+            Parallel Start
+            <div class="parTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: black"
+                >help</span
+              >
+            </div>
+            <button class="closeButtons">x</button>
+          </div>
+
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <div id="examplePause" class="block pause hidden">
+          <div class="pauseheader blockheader">
+            Pause
+            <div class="pauseTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: black"
+                >help</span
+              >
+            </div>
+            <button class="closeButtons">x</button>
+          </div>
+
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <input type="text" placeholder="eg 3.5" class="shortinput" />
+
+            seconds
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <div id="exampleVibrate" class="block vibrate hidden">
+          <div class="vibrateheader blockheader">
+            Vibrate
+            <div class="vibrateTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+            <button class="closeButtons">x</button>
+          </div>
+
+          <div class="block-body-container">
+            <div class="lineDot"></div>
+            <input type="text" placeholder="eg 0.5" class="shortinput" />
+
+            seconds
+            <div class="lineDot"></div>
+          </div>
+        </div>
+
+        <img id="outputImageSmall" class="" />
+        <img id="outputImageMedium" class="hidden" />
+        <img id="outputImageLarge" class="hidden" />
+      </div>
+      <!--------------------------------------------------------       Info box ------------------------------------------------------------------>
+      <div id="infoBox" class="block info">
+        <div id="infoBoxheader" class="blockheader">
+          Info Box
+
+          <div class="infoBoxTip tooltip">
+            <span
+              class="material-icons tooltip"
+              style="font-size: 18px; color: grey"
+              >help</span
+            >
+          </div>
+          <button id="infoCloseButton" class="closeButtons">x</button>
+        </div>
+
+        <div class="tab">
+          <button class="tablinks active" tab="infoContent">Info</button>
+
+          <button class="tablinks" id="testsTab" tab="testsContent">
+            Tests
+          </button>
+
+          <button class="tablinks" id="playerTab" tab="playerContent">
+            Previewer Values
+          </button>
+          <button class="tablinks" id="manifestTab" tab="manifestContent">
+            Manifest
+          </button>
+          <button class="tablinks" id="uploadTab" tab="uploadContent">
+            Upload File
+          </button>
+        </div>
+
+        <div id="infoContent">
+          <p>
+            Drag this Info Box right or down to create more space
+            <br /><br />
+            <a
+              target="_blank"
+              href="https://www.bbc.co.uk/makerbox/tools/adaptive-podcasting"
+              >More information</a
+            >
+            <br />
+            <br />
+            <a
+              target="_blank"
+              href="https://github.com/bbc/adaptivepodcasting.github.io/wiki/Adaptive-podcasting-editor-video-tutorials"
+              >Video tutorials</a
+            >
+            <br />
+            <a
+              target="_blank"
+              href="https://docs.google.com/document/d/15RRjzNzmUizUYOFY65Xq1EMd3BGrkFysY7Qur-VPm8Q/edit?usp=sharing"
+              >Complete guide (doc)</a
+            >
+            |
+            <a
+              target="_blank"
+              href="https://github.com/bbc/adaptivepodcasting.github.io/wiki"
+              >Complete online guide (Web)</a
+            >
+            <br />
+            <br />
+            <a
+              target="_blank"
+              href="https://play.google.com/store/apps/details?id=uk.co.bbc.perceptivepodcasts"
+              >Adaptive podcasting Android player/app</a
+            >
+          </p>
+        </div>
+
+        <div id="testsContent">
+          <p>Add tests here. Switch elements use tests to pick a path.</p>
+          <br />
+          <div id="testExample" class="if hidden">
+            <button class="closeButtons">x</button>
+            <p>Test Name:</p>
+            <input
+              class="testNameExample"
+              type="text"
+              placeholder="eg light sensor is dark"
+            />
+
+            <div class="testNameTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+            <br />
+            <p>If</p>
+            <select></select>
+            <select class="hidden"></select>
+            <p>is</p>
+            <div class="selectTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+            <input type="text" placeholder="eg dark" />
+            <div class="acceptedValuesTip tooltip">
+              <span
+                class="material-icons tooltip"
+                style="font-size: 18px; color: grey"
+                >help</span
+              >
+            </div>
+          </div>
+          <button id="addTestButton">Add test</button>
+        </div>
+
+        <div id="merchantsContent" class="hidden"></div>
+
+        <div id="playerContent" class="hidden">
+          <p>
+            When you open your podcast on the Android app, it will use that
+            device's sensors. This editor uses the 'fake phone' values below.
+          </p>
+          <br />
+          <p>Light sensor</p>
+          <select id="phoneLIGHT">
+            <option>light</option>
+            <option>dark</option>
+          </select>
+          <br />
+          <p>Date</p>
+          <input id="phoneDATE" type="date" placeholder="2022-2-14" />
+          <p>Time</p>
+          <input id="phoneTIME" size="5" placeholder="23:50" value="23:50" />
+          <p>Proximity</p>
+          <select id="phonePROXIMITY">
+            <option>far</option>
+            <option>near</option>
+          </select>
+          <br />
+          <p>User Contacts</p>
+          <input id="phoneUSER_CONTACTS" size="3" value="23" />
+          <br />
+          <p>Battery</p>
+          <input id="phoneBATTERY" size="5" value="30%" />
+          <br />
+          <p>City</p>
+          <input id="phoneCITY" size="10" value="manchester" />
+          <p>Country</p>
+          <input id="phoneCOUNTRY" size="10" value="uk" />
+          <br />
+          <p>Battery charging</p>
+          <select id="phoneBATTERYCHARGING">
+            <option>not charging</option>
+            <option>USB charging</option>
+            <option>mains charging</option>
+            <option>wireless Charging</option>
+          </select>
+          <br />
+          <p>Headphones plugged in</p>
+          <select id="phoneHEADPHONES">
+            <option>no headphones</option>
+            <option>headphones</option>
+          </select>
+          <br />
+          <p>Device mode</p>
+          <select id="phoneDEVICE_MODE">
+            <option>normal</option>
+            <option>vibrate</option>
+            <option>silent</option>
+          </select>
+          <br />
+          <p>Media Volume</p>
+          <input id="phoneMEDIA_VOLUME" size="5" value="90%" />
+          <br />
+          <p>User Language Name</p>
+          <input id="phoneUSER_LANGUAGE_NAME" size="10" value="english" />
+          <p>User Language Code</p>
+          <input id="phoneUSER_LANGUAGE_CODE" size="6" value="en_gb" />
+        </div>
+
+        <div id="manifestContent">
+          <p>Podcast title:</p>
+          <input id="podcastTitleInput" style="font-weight: 800" />
+          <br />
+
+          Image:
+          <input id="imageInput" type="file" accept="image/*" />
+          <div id="uploadedImage" class="hidden">
+            <span id="fileName">file name</span>
+            <button id="deleteImageButton">Delete Image file</button>
+          </div>
+
+          <br /><br />
+
+          <div class="credits">
+            Credits:
+            <br />
+            <div id="people">
+              <div id="exampleCreditsPerson" class="hidden creditsPerson">
+                <input style="font-weight: 800" placeholder="eg Sound Design" />
+                -
+                <input style="font-weight: 800" placeholder="eg Joan Bloggs" />
+                <button class="deletePersonButton">x</button>
+
+                <br />
+              </div>
+            </div>
+            <button id="addPersonButton">Add person</button>
+            <br /><br />
+          </div>
+        </div>
+
+        <div id="uploadContent" class="hidden">
+          <p>
+            Upload existing editor zip file:
+
+            <br /><br />
+
+            This will upload on top of any existing elements. If you wish to
+            clear your timeline before uploading, please refresh the page.
+          </p>
+          <br />
+          <input type="file" id="uploadZipInput" accept=".zip,.rar,.7zip" />
+          <br />
+
+          <image id="imgHere"></image>
+        </div>
+      </div>
+    </div>
+    <p id="horSpaceText" class="block spaceText">More Horizontal Space</p>
+    <p id="verSpaceText" class="block spaceText">More Vertical Space</p>
+    <h2 class="button" id="openInfoButton">
+      Open Info Box
+      <div class="openInfoButtonTip tooltip">
+        <span
+          class="material-icons tooltip"
+          style="font-size: 18px; color: grey"
+          >help</span
+        >
+      </div>
+    </h2>
+  </body>
+</html>

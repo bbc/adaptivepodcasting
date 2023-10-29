@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+<!--    <color name="colorAccent">#00DAC5</color>-->
+    <color name="colorAccent">#FF0D0D</color>
+    <color name="colorPodcastDownloaded">#000000</color>
+    <color name="colorPodcastNotDownloaded">#888888</color>
+    <color name="colorGrey">#b8b8b8</color>
+    <color name="colorGreyedOut">#b8b8b8</color>
+    <color name="Transparent">#00000000</color>
+    <color name="Transparent50">#80FFFFFF</color>
+    <color name="Transparent25">#40FFFFFF</color>
+    <color name="Transparent75">#B0FFFFFF</color>
+</resources>

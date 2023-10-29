@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="ap_privacy_notice">
+    <![CDATA[
+        <p><strong><u>BBC Adaptive Podcasting Player Privacy Notice </u></strong></p>
+        <p><strong><u>What will BBC collect and how will we use it?</u></strong></p>
+        <p>
+            When you use the Adaptive Podcasting Player the BBC or the creator of the podcast will not
+            collect personal data from you. The Adaptive Podcasting Player enables a responsive and
+            interactive experience by processing information on your device. The Adaptive Podcasting
+            Player is not designed to allow the creator of the content or the BBC to gain access to
+            information on your device.
+        </p>
+        <p><strong><u>Your rights and more information</u></strong></p>
+        <p>
+            You can contact our <a href="mailto:dataprotection.officer@bbc.co.uk">Data Protection Officer</a>
+            if you have questions or you wish to find out more details about your rights,
+            please visit the BBC&apos;s Privacy and Cookies Policy at <a href="http://www.bbc.co.uk/privacy">http://www.bbc.co.uk/privacy</a>.
+        </p>
+        <p>
+            If you have a concern about the way the BBC has handled your personal data, you can raise
+            your concern with the supervisory authority in the UK, the Information Commissioner&apos;s Office
+            (ICO) <a href="https://ico.org.uk/">https://ico.org.uk/</a>
+        </p>
+    ]]>
+</string>
+</resources>
