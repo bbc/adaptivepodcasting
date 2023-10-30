@@ -2,7 +2,9 @@
 
 Adaptive podcasting is a BBC Research & Development project exploring the possibilities of adaptive audio.
 
-![Adaptive podcast editor Screenshot](https://github.com/bbc/adaptivepodcasting-staging/assets/1649922/6b84c2be-3ec9-4efb-8353-dab789769354)
+![Adaptive podcast editor Screenshot](https://user-images.githubusercontent.com/1649922/188465308-888a1a86-1984-4c32-8dd8-4089b516101b.png)
+
+
 
 ## Installing the self contained web editor for the [Adaptive podcasting app](../docs/editor.md)
 
