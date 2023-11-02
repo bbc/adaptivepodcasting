@@ -2,7 +2,7 @@
 
 A BBC Research & Development project exploring the potential of adaptive media.
 
-<video width="1280" height="720" src="https://private-user-images.githubusercontent.com/1649922/274756409-b87eeb7e-4dcd-43c5-b7ba-247e21dfd7e0.mp4"></video>
+<video width="1280" height="720" src="https://github.com/bbc/adaptivepodcasting/assets/1649922/26be9059-b3d6-4e48-b2d3-14b931acc1b5"></video>
 > Video: Created by Vicky Barlow / Voice over: Bronnie McCarthy / Licenced [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
 > Music: [Sleepwalking by Airtone](http://ccmixter.org/files/airtone/65416)
