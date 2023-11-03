@@ -4,7 +4,7 @@
 
 ---
 
-There is a [PDF copy of this report](https://www.bbc.co.uk/rd/publications/adaptive-podcasting-open-source) if you prefer to download and read it offline
+There is a [PDF copy of this report](https://downloads.bbc.co.uk/rd/workstreams/adaptive-podcasting/bbc-rd-adaptive-podcasting-research-oct-2023.pdf) if you prefer to download and read it offline
 
 ---
  
