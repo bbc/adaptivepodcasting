@@ -46,6 +46,10 @@ You may [contact BBC R&D](https://www.bbc.co.uk/rd/contacts) to discuss alternat
 
 Please contact the authors by raising a [GitHub issue](issues/new).
 
+## Policy
+
+We follow the BBC privacy policy which you can [view here](https://www.bbc.co.uk/usingthebbc/privacy)
+
 ## Credits
 
 Adaptive podcasting has a lot of people who deserve [credit](docs/credits.md) for its inception, advancement, building, and opensourcing.
