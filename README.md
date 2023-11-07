@@ -7,7 +7,7 @@ A BBC Research & Development project exploring the potential of adaptive media.
 
 > Music: [Sleepwalking by Airtone](http://ccmixter.org/files/airtone/65416)
 
-Adaptive podcasting is an expandable podcasting platform with unique features and potential for future growth. The key features of the app are the use of different playback instructions depending on device and sensor data, and the capabilities of the audio player itself.
+Adaptive podcasting is an expandable podcasting platform with unique features and [potential for future growth](https://www.bbc.co.uk/rd/publications/adaptive-podcasting-open-source-release). The key features of the app are the use of different playback instructions depending on device and sensor data, and the capabilities of the audio player itself.
 
 ## Introduction
 
