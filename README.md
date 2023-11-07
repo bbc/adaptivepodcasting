@@ -44,7 +44,8 @@ You may [contact BBC R&D](https://www.bbc.co.uk/rd/contacts) to discuss alternat
 
 ## Contributing
 
-Please contact the authors by raising a [GitHub issue](issues/new).
+Please contact the authors by raising a [GitHub issue](issues/new) and please follow up with a [GitHub pull request](https://github.com/bbc/adaptivepodcasting/pulls).
+When submitting the pull request, please accompany it with a description of the problem you are trying to solve and the issue number if available, that this pull request fixes.
 
 ## Policy
 
