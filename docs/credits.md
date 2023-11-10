@@ -20,6 +20,7 @@ Adaptive podcasting would not have happened if it was not for the support, colla
 * Benedict Moore
 * Bill Thompson
 * Bronnie McCarthy
+* Chris Bergin
 * Chris Needham
 * Chris Pike
 * Dan Johnston

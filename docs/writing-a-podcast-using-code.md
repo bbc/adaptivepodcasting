@@ -463,7 +463,7 @@ Returns volume percentage (eg 80 %)
 ## Extensions and namespaces
 
 XML has support for [namespaces](https://www.w3.org/TR/xml-names/#ns-decl), which provides a clean way to extend the XML/SMIL code.
-The [University of York Audiolab](https://audiolab.york.ac.uk/), have implemented accessibility features using this model. You can learn more about this work in [this BBC paper.](https://www.bbc.co.uk/rd/publications/research-395-object-based-audio-adaptive-personalisable-narrative-metadata-hearing).
+The [University of York Audiolab](https://audiolab.york.ac.uk/), have implemented accessibility features using this model. You can learn more about this work in [this BBC paper.](https://www.bbc.co.uk/rd/publications/research-395-object-based-audio-adaptive-personalisable-narrative-metadata-hearing) and [this one](https://www.aes.org/e-lib/browse.cfm?elib=19742).
 
 ### Narrative importance
 [requires latest version of the player, not currently on the play store]
