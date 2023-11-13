@@ -11,7 +11,6 @@ Please note that tutorials and other materials are covered by the standard [Term
 
 This documentation is correct as of October 2023.
 
----
 
 ## Editor tutorials
 For those who want to dive straight into making their own adaptive podcasts
@@ -45,6 +44,8 @@ More advance player code elements
 ## About the adaptive podcasting project
 
 * [Communities using adaptive podcasting](../docs/community.md)
+* [Our research](research-learnings.md) from working with [adaptive podcasting in 2022](https://www.bbc.co.uk/rd/publications/adaptive-podcasting-open-source-release).
+Also available in [PDF](https://downloads.bbc.co.uk/rd/workstreams/adaptive-podcasting/bbc-rd-adaptive-podcasting-research-oct-2023.pdf) for easier reading offline
 * [Helpful resources for adaptive podcasting](../docs/resources.md)
 * [A brief history of perceptive/adaptive podcasting](../docs/history.md)
 
