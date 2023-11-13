@@ -28,41 +28,39 @@ Rebecca Saw independantly started the web editor, which became the base of the c
 Trunk's Nathan Broadbent and Alex Stone added Vibrate, SSML, Looping and other features.
 Rebecca Saw's editor is picked up and further developed adding a basic set of features. Giving non-developers a easy way to get started and understand the perceptive podcasting project.
  
+## 2020
+The project name Perceptive podcasting is changed to a more descriptive Adaptive podcasting. A [video](https://www.youtube.com/watch?v=zTAryDY3YTQ) is produced during the covid pandemic.
 
 ## 2021
 In Aug 2021, Adaptive podcasting recieved support from the [European Broadcasting Union](https://www.ebu.ch/) [(EBU)'s media innovation fund](https://www.ebu.ch/media/media-innovation-fund), providing the whole code base to EBU members 12 months ahead of the public open source release.
-The University of York start work on a branch of the codebase addomh accessibility features to aid with their [research](https://www.aes.org/e-lib/browse.cfm?elib=19742) into [narrative importance and time squeeze](https://github.com/bbc/adaptivepodcasting/blob/main/docs/writing-a-podcast-using-code.md#extensions-and-namespaces)
+
+The web editor is made available under the [BBC's Makerbox project](https://www.bbc.co.uk/makerbox/tools/adaptive-podcasting). This is marked with a [R&D blog post](https://www.bbc.co.uk/rd/blog/2022-09-adaptive-podcasting).
+
+The University of York start work on a branch of the codebase adding accessibility features to aid with their [research](https://www.aes.org/e-lib/browse.cfm?elib=19742) into [narrative importance and time squeeze](https://github.com/bbc/adaptivepodcasting/blob/main/docs/writing-a-podcast-using-code.md#extensions-and-namespaces)
 
 ## 2022
 The first edition of the Adaptive podcasting player is made available in the [Google play store](https://play.google.com/store/apps/details?id=uk.co.bbc.perceptivepodcasts). The web editor is made available under the [BBC's Makerbox project](https://www.bbc.co.uk/makerbox/tools/adaptive-podcasting).
 
-## 2023
-University of York's and BBC R&D's codebase are merged and made open source under the Apache licence. A [video](https://www.youtube.com/watch?v=F5ZvlezILOw) is produced for the release and made available under a CC licence.
-
-
-## 2018
-
-
-## 2020
-The project name Perceptive podcasting is changed to a more descriptive Adaptive podcasting. A [video](https://www.youtube.com/watch?v=zTAryDY3YTQ) is produced during the pandemic.
-
-## 2021
-In Aug 2021, Adaptive podcasting recieved support from the [European Broadcasting Union](https://www.ebu.ch/) [(EBU)'s media innovation fund](https://www.ebu.ch/media/media-innovation-fund), providing the whole code base to EBU members 12 months ahead of the public open source release. James Shephard and Anthony Onumonu started work internally to update the code base to Kotlin instead of Android java code. 
-
-## 2022
-The first edition of the Adaptive podcasting player is made available in the [Google play store](https://play.google.com/store/apps/details?id=uk.co.bbc.perceptivepodcasts). The web editor is made available under the [BBC's Makerbox project](https://www.bbc.co.uk/makerbox/tools/adaptive-podcasting). This is marked with a [R&D blog post](https://www.bbc.co.uk/rd/blog/2022-09-adaptive-podcasting).
+James Shephard, Anthony Onumonu and Kamara Bennett started work internally to update the code base and switch to Kotlin instead of Android java code. 
 
 ## 2023
-In October 2023, the code bases for [Adaptive podcasting were combined and made public](https://github.com/bbc/adaptivepodcasting) under an Apache 2 licence along with other [related research](https://www.bbc.co.uk/rd/publications/adaptive-podcasting-open-source-release). 
+University of York's and BBC R&D's codebase are merged and finally made [open source](https://www.bbc.co.uk/opensource/projects/adaptive-podcasting) in October 2023 under the Apache licence along with other [related research](https://www.bbc.co.uk/rd/publications/adaptive-podcasting-open-source-release). 
+. A promotional [video](https://www.youtube.com/watch?v=F5ZvlezILOw) is produced for the release and made available under a CC licence.
+
+BBC R&D, University of York and Public Code, will work together to steward the codebase.
 
 ## 2024
+BBC R&D's support for the project has formally finished, the provided code base is available to the community and industry to take in different ways.
 
-BBC R&D's support for the project has formally finished, we have provided the code base to the community and industry to take in different ways.
-
+### Feature requests
 There is a number of feature requests in the [GitHub issues](https://github.com/bbc/adaptivepodcasting/issues), which have been raised from the community of practice over the last 5 years.
 
 Most of them exist around what SMIL already supports for example filters, advance time muliplation, accessing streaming sources, a fallback system providing graceful degradation. 
 
 There is also a need to operate closer to the new podcasting ecosystem using the podcast 2.0 namespace.
 
+### Player requests
 The big question exists around a iOS player, as a large number of people use iOS for podcasts. We have always had the question and ultimately rather than create a iOS player, Android player, etc player. WASM/webassembly has matured over the last 6 years and it makes sense for future development of the player.
+
+### Other requests
+BBC R&D, York and Public Code will happily work with others around changes, updates and integration options into other code bases.

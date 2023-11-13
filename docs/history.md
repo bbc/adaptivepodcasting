@@ -2,6 +2,9 @@
 
 ![Perceptive Radio](https://www.bbc.co.uk/rd/images/dynamic/W1siZmYiLCJwdWJsaWMvcmQvc2l0ZXMvNTAzMzVmZjM3MGI1YzI2MmFmMDAwMDA0L2NvbnRlbnRfZW50cnk1MDMzYjM4YTcwYjVjMjcyYjAwMDAwMjIvNTlkM2I4YzAwNmQ2M2U0NjNhMDA0NzdmL2ZpbGVzLzE1MTcyMTk5MTY5XzEzMjdmYTE4Y2Ffby5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDh4NzAyIyJdXQ/15172199169_1327fa18ca_o.jpg?sha=a52a6006daeed92f)
 
+---
+This is a short summary of the history of Perceptive/Adaptive podcasting starting from the [Perceptive Radio project](https://www.bbc.co.uk/rd/projects/perceptive-radio). More technical details can be found in the [roadmap](roadmap.md).
+
 ## 2011
 
 Established in 2011 following the public research into a branch of object based media, called [Perceptive media]() and the first [public prototype breaking out](http://futurebroadcasts.com/).([code base](https://github.com/happyworm/PerceptiveMedia)).
@@ -38,4 +41,4 @@ In Aug 2021, Adaptive podcasting recieved support from the [European Broadcastin
 The first edition of the Adaptive podcasting player is made available in the [Google play store](https://play.google.com/store/apps/details?id=uk.co.bbc.perceptivepodcasts). The web editor is made available under the [BBC's Makerbox project](https://www.bbc.co.uk/makerbox/tools/adaptive-podcasting). This is marked with a [R&D blog post](https://www.bbc.co.uk/rd/blog/2022-09-adaptive-podcasting).
 
 ## 2023
-University of York's and BBC R&D's codebase are merged and made open source under the Apache licence. A [video](https://www.youtube.com/watch?v=F5ZvlezILOw) is produced for the release and made available under a CC licence.
+University of York's and BBC R&D's codebase are merged and made open source under the Apache licence. A promotional [video](https://www.youtube.com/watch?v=F5ZvlezILOw).
