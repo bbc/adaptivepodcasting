@@ -14,6 +14,7 @@ This documentation is correct as of October 2023.
 ---
 
 ## Editor tutorials
+For those who want to dive straight into making their own adaptive podcasts
 
 * [Installing the adaptive podcast editor](../editor/README.md)
 * [How to get started and how the adaptive podcast editor works](../docs/editor.md)
@@ -21,30 +22,34 @@ This documentation is correct as of October 2023.
 * [Adaptive podcasting editor video tutorials](../docs/video-tutorials.md)
 * [How to share adaptive podcasts with friends and the world](../docs/sharing-adaptive-podcasts.md)
 
+### Editing the SMIL code
+Advance coding tutorials for the adaptive podcasts 
+
+* [SMIL Lite for adaptive podcasting](../docs/smil-timing-model.md)
+* [Creating an adaptive podcast using SMIL](../docs/writing-a-podcast-using-code.md)
+
 ## Player tutorials
+More about the player and the communities around adaptive podcasting
 
 * [The Adaptive Podcasting player application for Android](../docs/android-application.md)
 * [The Adaptive Podcasting player README](../player/README.md)
-* [Communities using adaptive podcasting](../docs/community.md)
+* [The roadmap of perceptive/adaptive podcasting](../docs/roadmap.md)
 
-## Advance player code tutorials
+### Advance player code tutorials
+More advance player code elements
 
 * [Credentials guide](../docs/credentials.md)
 * [Data merchants guide](../docs/data-merchants.md)
 * [Creating a data merchant guide](../docs/creating-a-data-merchant.md)
 
-## SMIL code
+## About the adaptive podcasting project
 
-* [SMIL Lite for adaptive podcasting](../docs/smil-timing-model.md)
-* [Creating an adaptive podcast using SMIL](../docs/writing-a-podcast-using-code.md)
-
-## Miscellaneous
-
+* [Communities using adaptive podcasting](../docs/community.md)
 * [Helpful resources for adaptive podcasting](../docs/resources.md)
 * [A brief history of perceptive/adaptive podcasting](../docs/history.md)
+
+### Miscellaneous
+
 * [License](../docs/LICENSE)
+* [Governance](../docs/GOVERNANCE)
 * [Credits](../docs/credits.md)
-
----
-
-The old 2022 versions can be found [here on google docs](https://docs.google.com/document/d/15RRjzNzmUizUYOFY65Xq1EMd3BGrkFysY7Qur-VPm8Q/edit?usp=sharing).
