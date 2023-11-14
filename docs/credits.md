@@ -23,6 +23,7 @@ Adaptive podcasting would not have happened if it was not for the support, colla
 * Chris Bergin
 * Chris Needham
 * Chris Pike
+* Chris Sizemore
 * Dan Johnston
 * Grace Zakka
 * Helene Waters
