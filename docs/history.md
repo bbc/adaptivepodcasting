@@ -7,7 +7,7 @@ This is a short summary of the history of Perceptive/Adaptive podcasting startin
 
 ## 2011
 
-Established in 2011 following the public research into a branch of object based media, called [Perceptive media]() and the first [public prototype breaking out](http://futurebroadcasts.com/).([code base](https://github.com/happyworm/PerceptiveMedia)).
+Established in 2011 following the public research into a branch of object based media, called [Perceptive media](https://www.bbc.co.uk/blogs/researchanddevelopment/2012/07/what-is-perceptive-media.shtml) and the first [public prototype breaking out](https://www.bbc.co.uk/blogs/researchanddevelopment/2012/07/breaking-out---an-audio-experi.shtml). The ([code base](https://github.com/happyworm/PerceptiveMedia)) from [Happyworm](http://happyworm.com/) are both available.
 
 ## 2013
 
@@ -21,7 +21,9 @@ Smartphone capability had grown to an extent to which a mobile app could reprodu
 
 ## 2017
 
-In the summer, a live brief around the perceptive radio with Manchester Metropolian University leads to a summer placement of Chris Bergin who worked on the very first Android player. With Ben Newcombe internally adding the data merchant system. Later that year a chance hackathon event with Rebecca Saw arranged by the University of York, lead to contunious development and over the coming years  
+In the summer, a live brief around the perceptive radio with Manchester Metropolian University leads to a summer placement of Chris Bergin who worked on the very first Android player. Android was chosen due to development effort, importance of putting the early releases in the hands of young people, diversity of devices and cost of handsets.
+
+Ben Newcombe internally on placement to R&D adding the data merchant system. Later that year a chance hackathon event with Rebecca Saw arranged by the University of York, lead to contunious development and over the coming years  
 
 ## 2018
 

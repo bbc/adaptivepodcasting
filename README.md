@@ -53,4 +53,6 @@ We follow the BBC privacy policy which you can [view here](https://www.bbc.co.uk
 
 ## Credits
 
-Adaptive podcasting has a lot of people who deserve [credit](docs/credits.md) for its inception, advancement, building, and opensourcing.
+Adaptive podcasting is maintainied and stewarded by BBC R&D and the University of York.
+
+However a lot of people deserve [credit](docs/credits.md) for its inception, advancement, building, and opensourcing.

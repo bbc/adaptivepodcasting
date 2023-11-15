@@ -48,6 +48,7 @@ Adaptive podcasting would not have happened if it was not for the support, colla
 * Lauren Ward
 * Marian Ursu
 * Mark Boas
+* Mark Panaghiston
 * Monica Maghami
 * Nathan Broadbent
 * Nick Hanson

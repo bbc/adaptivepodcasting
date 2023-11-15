@@ -1,7 +1,9 @@
 # Adaptive podcasting documentation
 
 [![AP-pexels-cottonbro-header](https://user-images.githubusercontent.com/1649922/188454404-9395c73b-fef2-4f41-b1b9-45e16b8082aa.jpg)](
-https://github.com/bbc/adaptivepodcasting.github.io)
+https://github.com/bbc/adaptivepodcasting)
+
+---
 
 Adaptive podcasting is a key example of object-based media (OBM), an approach to media development pioneered by BBC Research & Development. OBM puts personalisation at the heart of content creation. By producing media made up of many small, interchangeable assets or objects creators can tell stories that flex and adapt to their respective audiences. Adaptive podcasting is an application of this, envisioning a future where podcasts can be shapedby information about each individual listener, as they are listening.
 
@@ -51,6 +53,7 @@ Also available in [PDF](https://downloads.bbc.co.uk/rd/workstreams/adaptive-podc
 
 ### Miscellaneous
 
+* [Reporting a security issue](../docs/security.md)
 * [License](../docs/LICENSE)
 * [Governance](../docs/GOVERNANCE)
 * [Credits](../docs/credits.md)
