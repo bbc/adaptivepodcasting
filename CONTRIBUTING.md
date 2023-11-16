@@ -26,4 +26,4 @@ We are open to discuss alternatives if this is not possible for security or priv
 
 ## Our values
 
-[Our public values are essential to us](https://www.bbc.com/aboutthebbc/governance/mission) and any contributions will be weighed against them. We hightly recommend [reading them ahead](https://www.bbc.com/aboutthebbc/governance/mission) of submitting any contribution.
+[Our public values are essential to us](https://www.bbc.com/aboutthebbc/governance/mission) and any contributions will be weighed against them. We hightly recommend [reading them ahead](https://www.bbc.com/aboutthebbc/governance/mission) of submitting any contribution. We will not support contributions which are against our public values.
