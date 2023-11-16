@@ -31,7 +31,7 @@ With a stable APK, a number of community engagement started including with the U
 
 ## 2019
 
-Development of the player is given to Trunk's Nathan Broadbent and Alex Stone, while Rebecca Saw's editor is picked up and further developed. Giving non-developers a easy way to get started and understand the perceptive podcasting project.
+Development of the player is given to Trunk's Nathan Broadbent and Alex Stone, while Rebecca Saw's editor is picked up and further developed. Giving non-developers a easy way to get started and understand the perceptive podcasting project. A conversation with Andy Taylor and introduction to Rebecca, later results in the start of the [commercial accordion](https://www.accordion-innovation.com) service.
 
 ## 2020
 The project name Perceptive podcasting is changed to a more descriptive Adaptive podcasting. A brand is created by Jimmy Lee and a [video](https://www.youtube.com/watch?v=zTAryDY3YTQ) is produced during the pandemic. 2020 is also the first year the community of practice named rabbit holes collective is formed with artists from Bristol & Bath's creative community. 
