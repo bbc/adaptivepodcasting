@@ -4,7 +4,7 @@
 
 ---
 
-BBC R&D manage and provide the codebase under the [licence](https://github.com/bbc/adaptivepodcasting/blob/main/LICENSE)
+This codebase is provided by BBC R&D who manage and provide the codebase under the [licence](https://github.com/bbc/adaptivepodcasting/blob/main/LICENSE)
 
 ## Contributions
 
@@ -16,6 +16,6 @@ The [European Broadcasting Union](https://www.ebu.ch/) funded developement of th
 
 ## New contributions
 
-We welcome contributions which match our guidelines and values. Raising an issue is the best way to start but please follow up with a GitHub pull request.
+We welcome contributions which match our [public values](https://www.bbc.com/aboutthebbc/governance/mission) and [vision](https://www.bbc.co.uk/rd/about/vision).
 
-When submitting the pull request, please accompany it with a description of the problem you are trying to solve and the issue number if available, that this pull request fixes.
+Please read our [guide to contributing](../CONTRIBUTING.md).

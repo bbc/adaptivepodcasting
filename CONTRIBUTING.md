@@ -23,3 +23,7 @@ We highly recommend file formats where the changes within the files can be easil
 
 Ideally contributions should be signed and provide a email address or way to be contacted for further conversation (such as a GitHub account). This helps with future contributors who may need to ask about past contributions.
 We are open to discuss alternatives if this is not possible for security or privacy reasons.
+
+## Our values
+
+[Our public values are essential to us](https://www.bbc.com/aboutthebbc/governance/mission) and any contributions will be weighed against them. We hightly recommend [reading them ahead](https://www.bbc.com/aboutthebbc/governance/mission) of submitting any contribution.
