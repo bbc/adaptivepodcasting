@@ -55,5 +55,5 @@ Also available in [PDF](https://downloads.bbc.co.uk/rd/workstreams/adaptive-podc
 
 * [Reporting a security issue](../docs/security.md)
 * [License](../docs/LICENSE)
-* [Governance](../docs/GOVERNANCE)
+* [Governance](../docs/GOVERNANCE.md)
 * [Credits](../docs/credits.md)
