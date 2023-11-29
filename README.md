@@ -1,6 +1,6 @@
 # Adaptive / Perceptive Podcasts
 
-A BBC Research & Development project exploring the potential of adaptive media.
+A project exploring the potential of media which adapts based on sensors and data.
 
 <video width="1280" height="720" src="https://github.com/bbc/adaptivepodcasting/assets/1649922/26be9059-b3d6-4e48-b2d3-14b931acc1b5"></video>
 > Video: Created by Vicky Barlow / Voice over: Bronnie McCarthy / Licenced [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
