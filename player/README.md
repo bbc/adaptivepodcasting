@@ -10,7 +10,7 @@ The Player app is essentially a lightweight implementation of a SMIL parser with
 
 You can install the Adaptive Podcasting app via the [Google Play Store](https://play.google.com/store/apps/details?id=uk.co.bbc.perceptivepodcasts), which was last updated Jan 2023. There is also [the updated Android player/app](https://github.com/bbc/adaptivepodcasting/blob/main/player/adaptive-podcasting-2023-09.apk) available to sideload if you require the latest version and cannot compile it yourself.
 
-You will need to [compile the player code](https://developer.android.com/build) to build the latest version with all the features.
+You will need to [compile the player code](https://developer.android.com/build) to build the [latest version with all the features](https://github.com/bbc/adaptivepodcasting/raw/main/player/adaptive-podcasting-2023-09.apk).
 
 ## Adaptive podcast player code
 
