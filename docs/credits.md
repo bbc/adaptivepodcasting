@@ -65,6 +65,7 @@ Adaptive podcasting would not have happened if it was not for the support, colla
 * Roxann Asquith
 * Roy Rodenhaeuser
 * Samantha Chadwick
+* Samera Haynes
 * Sarah Glenister
 * Sarah Mines
 * Scott Cawley
