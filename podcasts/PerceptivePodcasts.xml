@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+  <channel>
+    <image>
+      <link>https://www.bbc.co.uk/rd</link>
+      <title>Adaptive Podcasting Demos</title>
+      <url>https://ichef.bbci.co.uk/images/ic/208x208/p05mg1y7.jpg</url>
+    </image>
+    <title>Adaptive podcasting demos</title>
+    <description>Adaptive podcasting default podcast feed. Many more tech demos can be found at PerceptivePodcastsDemos.xml</description>
+    <language>en</language>
+    <pubDate>Fri, 1 Apr 2022 12:05:00 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2022 19:57:00 +0000</lastBuildDate>
+    <link>https://www.bbc.co.uk/makerbox</link>
+    <item>
+        <title>The Mindcast introduction</title>
+        <guid isPermaLink="false">MindCastIntro</guid>
+        <summary>Download, tune in and start the journey</summary>
+        <description>Download, tune in and start the journey in binaural and adaptive style</description>
+        <pubDate>Tue, 16 Aug 2022 20:20:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="The-mindcast-introduction.zip" length="4407508" type="application/zip"/>
+    </item>
+    <item>
+        <title>The Starter Demo</title>
+        <guid isPermaLink="false">starterDemo</guid>
+        <summary>Short demo of the possibilities of Adaptive Podcasting</summary>
+        <description>Short demo of the different possibilities of Adaptive Podcasting</description>
+        <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="StarterDemo.zip" length="7286839" type="application/zip"/>
+    </item>
+    <item>
+        <title>Adaptive Summer Mindcast</title>
+        <guid isPermaLink="false">summerMindCastAP</guid>
+        <summary>Download, tune in and relax your mind</summary>
+        <description>Download, tune in and relax your mind in binaural and adaptive style</description>
+        <pubDate>Thu, 4 Aug 2022 18:20:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="Summer-mindcast.zip" length="80575785" type="application/zip"/>
+    </item>
+    <item>
+        <title>Adaptive Winter Mindcast</title>
+        <guid isPermaLink="false">winterMindCastAP</guid>
+        <summary>Download, tune in and relax your mind</summary>
+        <description>Download, tune in and relax your mind in binaural and adaptive style</description>
+        <pubDate>Thu, 4 Aug 2022 18:20:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="Winter-mindcast.zip" length="81721039" type="application/zip"/>
+    </item>
+    <item>
+        <title>AP technical interview with Rebecca Saw</title>
+        <guid isPermaLink="false">AP-tech-interview</guid>
+        <summary>In depth technical interview with Rebecca Saw</summary>
+        <description>In depth technical interview with Rebecca Saw on developing Adaptive Podcasting</description>
+        <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+        <author>BBC R&amp;D</author>
+        <enclosure url="AP-tech-interview.zip" length="51309106" type="application/zip"/>
+    </item>
+     <item>
+      <title>The Binaural Turning Forest</title>
+      <guid isPermaLink="false">binauralTurning</guid>
+      <summary>Short binaural cut of the Turning Forest</summary>
+      <description>Short binaural cut of the BBC's Turning Forest</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="binauralTurning.zip" length="1839349" type="application/zip"/>
+    </item>
+    <item>
+      <title>Tomorrow's World Electric Sheep (AP remix)</title>
+      <guid isPermaLink="false">electricSheep</guid>
+      <summary>Meet Mary. She's sentient and she's conscious. So is your phone...</summary>
+      <description>Meet Mary. She's sentient and she's conscious. So is your phone...</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D and Tomorrow's World</author>
+      <enclosure url="tomorrowsWorldEp4.zip" length="58892164" type="application/zip"/>
+    </item>
+    <item>
+      <title>Tomorrow's World Electric Sheep (Original version)</title>
+      <guid isPermaLink="false">electricSheepTX</guid>
+      <summary>Meet Mary. She's sentient and she's conscious, just like us?</summary>
+      <description>Demostrating the ability to playback audio files directly</description>
+      <pubDate>Tue, 28 Nov 2017 12:00:00 +0000</pubDate>
+      <author>BBC Tomorrow's World</author>
+      <enclosure url="https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p05mfn6t.mp3" length="58933753" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Abbie's Black Hole Insanity</title>
+      <guid isPermaLink="false">abbieBlackHole</guid>
+      <summary>From Salford University's Audio student Abbie Thomson</summary>
+      <description>Black Hole Insanity by Salford University's Abbie Thomson</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>Abbie Thomson</author>
+      <enclosure url="abbieBlackHole.zip" length="4831578" type="application/zip"/>
+    </item>
+    <item>
+      <title>Roxann's A Lack of Her poem</title>
+      <guid isPermaLink="false">roxannPoem</guid>
+      <summary>From Salford University's Audio student Roxann Asquith</summary>
+      <description>Poem by Salford University's Roxann Asquith</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>Roxann Asquith</author>
+      <enclosure url="roxannPoem.zip" length="4710522" type="application/zip"/>
+    </item>
+    <item>
+      <title>Is Santa on the way?</title>
+      <guid isPermaLink="false">SantaOnTheWay</guid>
+      <summary>Showcasing how using date variables could adapt podcast content</summary>
+      <description>Showcasing how using date variables could adapt podcast content </description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="Is-Santa-on-the-way.zip" length="1468247" type="application/zip"/>
+    </item>
+    <item>
+      <title>In B major (Layered Audio in B-major)</title>
+      <guid isPermaLink="false">layeredAudioBmajor</guid>
+      <summary>Demonstrates audio layering limits in a smoother way</summary>
+      <description>Demonstrates audio layering limits</description>
+      <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
+      <author>BBC R&amp;D</author>
+      <enclosure url="layeredAudioBmajor.zip" length="16783185" type="application/zip"/>
+    </item>
+  </channel>
+</rss>
