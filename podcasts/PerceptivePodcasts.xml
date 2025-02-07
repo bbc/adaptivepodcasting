@@ -6,11 +6,11 @@
       <title>Adaptive Podcasting Demos</title>
       <url>https://ichef.bbci.co.uk/images/ic/208x208/p05mg1y7.jpg</url>
     </image>
-    <title>Adaptive podcasting demos</title>
-    <description>Adaptive podcasting default podcast feed. Many more tech demos can be found at PerceptivePodcastsDemos.xml</description>
+    <title>Adaptive podcasting default demos</title>
+    <description>Adaptive podcasting default podcast feed. Many more tech demos can be found by replacing the feed with PerceptivePodcastsDemos.xml</description>
     <language>en</language>
     <pubDate>Fri, 1 Apr 2022 12:05:00 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2022 19:57:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 7 Feb 2025 12:40:00 +0000</lastBuildDate>
     <link>https://www.bbc.co.uk/makerbox</link>
     <item>
         <title>The Mindcast introduction</title>
@@ -19,7 +19,7 @@
         <description>Download, tune in and start the journey in binaural and adaptive style</description>
         <pubDate>Tue, 16 Aug 2022 20:20:00 +0000</pubDate>
         <author>BBC R&amp;D</author>
-        <enclosure url="The-mindcast-introduction.zip" length="4407508" type="application/zip"/>
+        <enclosure url="https://www.dropbox.com/scl/fi/k2dq7qmo3y23zvl7t8xdl/The-mindcast-introduction-AP-editor.zip?rlkey=ameuso4t5nz5nmxprms4baylv&st=h43oh9t2&dl=1" length="4407508" type="application/zip"/>
     </item>
     <item>
         <title>The Starter Demo</title>
@@ -28,7 +28,7 @@
         <description>Short demo of the different possibilities of Adaptive Podcasting</description>
         <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
         <author>BBC R&amp;D</author>
-        <enclosure url="StarterDemo.zip" length="7286839" type="application/zip"/>
+        <enclosure url="https://www.dropbox.com/scl/fi/yvd3qdbouukt9o2a0h9je/StarterDemo.zip?rlkey=i96i8u9udxdkq4o93j85rvgjl&st=987csdo1&dl=1" length="7286839" type="application/zip"/>
     </item>
     <item>
         <title>Adaptive Summer Mindcast</title>
@@ -37,7 +37,7 @@
         <description>Download, tune in and relax your mind in binaural and adaptive style</description>
         <pubDate>Thu, 4 Aug 2022 18:20:00 +0000</pubDate>
         <author>BBC R&amp;D</author>
-        <enclosure url="Summer-mindcast.zip" length="80575785" type="application/zip"/>
+        <enclosure url="https://www.dropbox.com/scl/fi/yro6g8my9jhe2uzwgk2mb/Summer-mindcast.zip?rlkey=easgbt92x3707kwd832q4ja0j&st=rlyg6ljl&dl=1" length="80575785" type="application/zip"/>
     </item>
     <item>
         <title>Adaptive Winter Mindcast</title>
@@ -46,7 +46,7 @@
         <description>Download, tune in and relax your mind in binaural and adaptive style</description>
         <pubDate>Thu, 4 Aug 2022 18:20:00 +0000</pubDate>
         <author>BBC R&amp;D</author>
-        <enclosure url="Winter-mindcast.zip" length="81721039" type="application/zip"/>
+        <enclosure url="https://www.dropbox.com/scl/fi/kdj5vix3mbnpg4akrfx15/Winter-mindcast.zip?rlkey=mbd4z9u48ujr3jenuh1otyh33&st=koanim36&dl=1" length="81721039" type="application/zip"/>
     </item>
     <item>
         <title>AP technical interview with Rebecca Saw</title>
@@ -55,7 +55,7 @@
         <description>In depth technical interview with Rebecca Saw on developing Adaptive Podcasting</description>
         <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
         <author>BBC R&amp;D</author>
-        <enclosure url="AP-tech-interview.zip" length="51309106" type="application/zip"/>
+        <enclosure url="https://www.dropbox.com/scl/fi/bfm8ubkmdfil81hte98yy/AP-tech-interview.zip?rlkey=nerxfaqhxvuqut7fpn2lntxwr&st=hha8v1or&dl=1" length="51309106" type="application/zip"/>
     </item>
      <item>
       <title>The Binaural Turning Forest</title>
@@ -64,7 +64,7 @@
       <description>Short binaural cut of the BBC's Turning Forest</description>
       <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
       <author>BBC R&amp;D</author>
-      <enclosure url="binauralTurning.zip" length="1839349" type="application/zip"/>
+      <enclosure url="https://www.dropbox.com/scl/fi/pqfcouxt1wf98l1vpdvew/binauralTurning.zip?rlkey=cirlcn0x2oetgw5yxfmrjfvjc&st=albudr8x&dl=1" length="1839349" type="application/zip"/>
     </item>
     <item>
       <title>Tomorrow's World Electric Sheep (AP remix)</title>
@@ -73,7 +73,7 @@
       <description>Meet Mary. She's sentient and she's conscious. So is your phone...</description>
       <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
       <author>BBC R&amp;D and Tomorrow's World</author>
-      <enclosure url="tomorrowsWorldEp4.zip" length="58892164" type="application/zip"/>
+      <enclosure url="https://www.dropbox.com/scl/fi/7jujif3ixtro53u24claj/tomorrowsWorldEp4.zip?rlkey=1xfbapl4agu8prr5eocdyiky9&st=7gjkg8r1&dl=1" length="58892164" type="application/zip"/>
     </item>
     <item>
       <title>Tomorrow's World Electric Sheep (Original version)</title>
@@ -91,7 +91,7 @@
       <description>Black Hole Insanity by Salford University's Abbie Thomson</description>
       <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
       <author>Abbie Thomson</author>
-      <enclosure url="abbieBlackHole.zip" length="4831578" type="application/zip"/>
+      <enclosure url="https://www.dropbox.com/scl/fi/z9k54m7xpqs09myh05fog/abbieBlackHole.zip?rlkey=rwlb6kuyhnfil99c7s0tgo4zn&st=gj4mjk2m&dl=1" length="4831578" type="application/zip"/>
     </item>
     <item>
       <title>Roxann's A Lack of Her poem</title>
@@ -100,7 +100,7 @@
       <description>Poem by Salford University's Roxann Asquith</description>
       <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
       <author>Roxann Asquith</author>
-      <enclosure url="roxannPoem.zip" length="4710522" type="application/zip"/>
+      <enclosure url="https://www.dropbox.com/scl/fi/12bp3vv3likambcmdtlg8/roxannPoem.zip?rlkey=dmhka20l84bfu85ngrk43w429&st=lwm3876c&dl=1" length="4710522" type="application/zip"/>
     </item>
     <item>
       <title>Is Santa on the way?</title>
@@ -109,7 +109,7 @@
       <description>Showcasing how using date variables could adapt podcast content </description>
       <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
       <author>BBC R&amp;D</author>
-      <enclosure url="Is-Santa-on-the-way.zip" length="1468247" type="application/zip"/>
+      <enclosure url="https://www.dropbox.com/scl/fi/2ok7h3si8dzl6ppqkspx9/Is-Santa-on-the-way.zip?rlkey=dppl3lcdk2xesy5mjpkoxo5ml&st=3e9a8h80&dl=1" length="1468247" type="application/zip"/>
     </item>
     <item>
       <title>In B major (Layered Audio in B-major)</title>
@@ -118,7 +118,7 @@
       <description>Demonstrates audio layering limits</description>
       <pubDate>Wed, 24 Aug 2022 19:57:00 +0000</pubDate>
       <author>BBC R&amp;D</author>
-      <enclosure url="layeredAudioBmajor.zip" length="16783185" type="application/zip"/>
+      <enclosure url="https://www.dropbox.com/scl/fi/9l7c5hfunfdtxc7n29qnt/layeredAudioBmajor.zip?rlkey=zqcbx8okimgmto4crhby5j5fs&st=6wvacb4q&dl=1" length="16783185" type="application/zip"/>
     </item>
   </channel>
 </rss>
