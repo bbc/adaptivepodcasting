@@ -109,7 +109,7 @@ The results can be seen clearly once the attributes are opened on the player app
 ![The metadata from the JSON as seen in the player app](https://user-images.githubusercontent.com/1649922/188482590-05807b58-daf0-4d78-89f9-a167c5f40c87.jpg)
 
 
-All the JSON file attributes are all optional but recommended, otherwise you will end up with a blank podcast. The JSON file must be valid or the player will not open the podcast, [online services do exist](https://www.freeformatter.com/json-validator.html) but most code editors will do the check for you.
+All the JSON file attributes are all optional but recommended, otherwise you will end up with a blank podcast. The JSON file must be valid or the player will not open the podcast, [online services do exist](https://jsonviewertool.com/json-validator) but most code editors will do the check for you.
 
 
 We recommend including the Permissions used at the top of the JSON file to help the listener to understand which permissions are used and, if you like, why they are used.
